@@ -1,0 +1,40 @@
+1. Continuous Variables:
+Definition: Continuous variables can take an infinite number of possible values within a range. These values are often real numbers that can be measured but not counted exactly. They include decimals and fractions.
+Examples: Height, weight, temperature, time, distance, speed.
+Key Characteristics:
+Any value within a range is possible (e.g., 5.1, 5.12, 5.123, etc.).
+Measured, not counted.
+Can be subdivided into finer and finer units (e.g., 4.567 kg).
+Example: The height of a person can be 160.25 cm or 172.5 cm, and theoretically, it can take any value within the range of human heights.
+
+2. Discrete Variables:
+Definition: Discrete variables take specific, separate values (often integers) and cannot be subdivided meaningfully. These values are typically counted rather than measured.
+Examples: Number of children in a family, number of cars, number of accidents, goals scored in a game.
+Key Characteristics:
+Only specific values are possible (e.g., 1, 2, 3; no in-between values like 1.5 or 2.75).
+Counted, not measured.
+The values are distinct and separate.
+Example: The number of cars in a parking lot can only be whole numbers (1, 2, 3, etc.), as you can't have 2.5 cars.
+
+Summary of Differences:
+Feature	Continuous Variables	Discrete Variables
+Possible Values	Infinite, within a range	Finite, distinct values
+Representation	Real numbers (can have decimals)	Integers (whole numbers)
+Measurement/Counting	Measured	Counted
+Examples	Height, weight, temperature	Number of people, number of cars
+Visualization:
+Continuous Variables: Typically visualized using histograms or line charts.
+Discrete Variables: Typically visualized using bar charts or count plots.
+
+******************************************************************
+Histogram & Density Plots :::Univariate
+
+Histograms and density plots show the frequency of a numeric variable along the y-axis, and the value along the x-axis. The sns.distplot() function plots a density curve. Notice that this is aesthetically better than vanilla matplotlib.
+
+******************************************************************
+Histplot contain only numeric value
+*********************************************************
+Scatter plot :::::Bivariate distributions 
+Scatterplots are used to find the correlation between two continuos variables.
+***************************************************************
+Heatmaps::::Multivariate plots
